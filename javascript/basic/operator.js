@@ -12,3 +12,12 @@ const a = 10
 const b = '10'
 console.log(a===b)
 // ans= false
+
+
+// generate a random number between 0 and 5, if it is lesser than 3,
+//console.log "lesser than 3" else "Greater"
+
+const randomNum = Math.random()*6
+const roundoffVal = Math.floor(randomNum)
+console.log(randomNum)
+
