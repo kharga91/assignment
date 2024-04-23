@@ -8,8 +8,9 @@ console.log(arr.length)
 
 //Q2 reverse the array and console log
 //expected output [2,5,3]
-const reversed = arr.reverse();
-console.log('reversed:', reversed);
+//const reversed = arr.reverse();
+//console.log('reversed:', reversed);
+console.log(arr.reverse())
 //ans reversed: [ 2, 5, 3 ]
 
 
