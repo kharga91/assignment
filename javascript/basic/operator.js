@@ -21,3 +21,5 @@ const randomNum = Math.random()*6
 const roundoffVal = Math.floor(randomNum)
 console.log(randomNum)
 
+//2.1854131857487054
+
