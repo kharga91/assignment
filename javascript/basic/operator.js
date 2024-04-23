@@ -21,5 +21,14 @@ const randomNum = Math.random()*6
 const roundoffVal = Math.floor(randomNum)
 console.log(randomNum)
 
+if(roundoffVal<3){
+  console.log(roundoffVal+ 'is less then 3')
+}
+else if (roundoffVal ===  3){
+  console.log(roundoffVal+ 'is equal to 3')
+} else{
+  console.log(roundoffVal+ 'is greater the 3')
+}
+
 //2.1854131857487054
 
