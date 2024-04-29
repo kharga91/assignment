@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.greet{
+  background-color: purple;
+  margin: 4px;
+  padding: 2px;
+  width: 100px;
+  color: white;
+}
