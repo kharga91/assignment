@@ -2,16 +2,21 @@
 import React from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Checkbox, Input, Link} from "@nextui-org/react";
 import {MailIcon} from './MailIcon.jsx';
+
 import {LockIcon} from './LockIcon.jsx';
 import './page.css';
- 
+import CustomNavBar from "../../Component/Navbar/page.jsx";
+
+
+
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
   return (
     <>
-      <Button onPress={onOpen} color="primary" className="user-button">Open Modal</Button>
+    <CustomNavBar/>
+      <Button onPress={onOpen} color="primary" className="user-button" >Sign Up</Button>
       <Modal 
         isOpen={isOpen} 
         onOpenChange={onOpenChange}
