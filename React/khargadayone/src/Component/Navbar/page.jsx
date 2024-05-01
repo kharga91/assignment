@@ -9,7 +9,7 @@ const CustomNavBar=()=> {
         
         <p className="font-bold text-inherit">Aniket Kharga</p>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className=" sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">
             Features
@@ -27,7 +27,7 @@ const CustomNavBar=()=> {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem className=" lg:flex">
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
